@@ -13,7 +13,7 @@ public class Topico {
 	private StatusTopico status = StatusTopico.NAO_RESPONDIDO;
 	private Usuario autor;
 	private Curso curso;
-	private List<Resposta> respostas = new ArrayList<>();
+	private List<Resposta> respostas = new ArrayList<Resposta>();
 
 	public Topico(String titulo, String mensagem, Curso curso) {
 		this.titulo = titulo;
